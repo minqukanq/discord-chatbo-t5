@@ -1,9 +1,9 @@
 ## How to Build a Discord Question Answering Chatbot
 
 
-
-<img src="img.png" alt="img" style="zoom:35%;" />
-
+<div align="center">
+   <img src="img.png" alt="img" width="650" />
+</div>
 
 
 ## Getting Started
