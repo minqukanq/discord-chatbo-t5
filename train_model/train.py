@@ -189,7 +189,7 @@ def T5Trainer(
 
 def arg_parse():
     parser = argparse.ArgumentParser(description="This is a parser for train T5 model")
-    parser.add_argument("--model", type=str, default="google/mt5-base", help="pretrained model")
+    parser.add_argument("--model", type=str, default="mingu/mt5-base-finetuned-korquad", help="pretrained model")
     parser.add_argument("--data_path", type=str, required=True, help="data path")
     parser.add_argument("--train_batch_size", type=int, default=8, help="training batch size")
     parser.add_argument("--valid_batch_size", type=int, default=8, help="validating batch size")
